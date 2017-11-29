@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+    <html>
+      <head>
+        <title>FoamTree Quick Start</title>
+        <meta charset="utf-8" />
+      </head>
+
+      <body>
+        <div id="visualization" style="width: 800px; height: 600px"></div>
+
+        <script src="carrotsearch.foamtree.js"></script>
+        <script>
+          window.addEventListener("load", function() {
+            var foamtree = new CarrotSearchFoamTree({
+              id: "visualization",
+              dataObject:{"groups": [{"groups": [], "weight": 1, "label": "682 - Incorrect Calculation"}, {"groups": [], "weight": 1, "label": "118 - Incorrect Access of Indexable Resource ('Range Error')"}, {"groups": [], "weight": 1, "label": "330 - Use of Insufficiently Random Values"}, {"groups": [], "weight": 1, "label": "435 - Improper Interaction Between Multiple Entities"}, {"groups": [], "weight": 1, "label": "664 - Improper Control of a Resource Through its Lifetime"}, {"groups": [], "weight": 1, "label": "691 - Insufficient Control Flow Management"}, {"groups": [], "weight": 1, "label": "693 - Protection Mechanism Failure"}, {"groups": [], "weight": 1, "label": "697 - Insufficient Comparison"}, {"groups": [], "weight": 1, "label": "703 - Improper Check or Handling of Exceptional Conditions"}, {"groups": [], "weight": 1, "label": "707 - Improper Enforcement of Message or Data Structure"}, {"groups": [{"groups": [], "weight": 1, "label": "107 - Struts: Unused Validation Form"}], "weight": 1, "label": "710 - Improper Adherence to Coding Standards"}]}});
+          });
+        </script>
+      </body>
+    </html>
